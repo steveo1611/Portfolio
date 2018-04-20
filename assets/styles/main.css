@@ -1,6 +1,6 @@
 /* BUG BUG: this used for Troubleshooting: */
-/* .row { 
+.col-sm-6 { 
     outline : 2px solid red;
 background-color: green;    
-} */
+}
 
