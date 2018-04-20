@@ -1,6 +1,31 @@
 /* BUG BUG: this used for Troubleshooting: */
-.col-sm-6 { 
+/* .col-sm-6 { 
     outline : 2px solid red;
 background-color: green;    
+} */
+
+.intro-r{
+    background-image: url(../images/wid-BOISE.jpg);
+    min-height: 50rem;
+    background-size: cover;
+    background-position: center;
+    text-align:center;
 }
 
+.about-r{
+    background-color: lightblue;
+    text-align: center;
+}
+
+.portfolio{
+    background-color: black;
+}
+.port-r{
+    text-align: center;
+
+}
+.foot{
+    background-color: black;
+    color: white;
+    text-align: end;
+}

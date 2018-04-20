@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- V1.0 -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,7 @@
 <body>
     <header>
         <!-- NOTE:set up header section to include name and nav links  sticky-fixed-top-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
             <a class="navbar-brand" href="#">Steven Oldfield</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nvcollapse" aria-controls="nvcollapse"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +34,7 @@
     <section>
         <div class="intro">
             <div class="container-fluid">
-                <div class="row intro-r">
+                <div class="row intro-r d-flex align-items-center">
                     <div class="col">
                         <!-- NOTE: intro section: top of page: contains background pic and something to get viewer to look further -->
                         <h1> Hello welcome to my touch and go landing page</h1>
@@ -45,8 +45,8 @@
         </div>
         <div class="about">
             <!-- NOTE: section about me, the general blurbs about me -->
-            <div class="container">
-                <div class="row">
+            <div class="container-fluid">
+                <div class="row about-r">
                     <div class="col">
                         <h3>ABOUT ME</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam soluta eveniet in illum
@@ -61,9 +61,15 @@
     and some details...maybe readme files also? -->
             <p>portfolio section</p>
             <div class="container">
-                <div class="row">
+                <div class="row port-r">
                     <div class="col">
                         <h3>Portfolio Section</h3>
+                        <img src="//placehold.it/150x150" alt="">
+                        <img src="//placehold.it/150x150" alt="">
+                        <img src="//placehold.it/150x150" alt="">
+                        <img src="//placehold.it/150x150" alt="">
+                        <img src="//placehold.it/150x150" alt="">
+                        <img src="//placehold.it/150x150" alt="">
                     </div>
                 </div>
             </div>
@@ -71,7 +77,7 @@
         <div class="contact-me">
             <!-- NOTE: section for contacting me: form/email or maybe just HOW to contact me? -->
             <p>contact section</p>
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col">
                         <h3>Contact me</h3>
@@ -79,8 +85,10 @@
                 </div>
             </div>
         </div>
-        <footer>
-
+        <footer class="foot">
+            <p>Posted by: Steven Oldfield</p>
+            <p>To provide feedback or to Contact me: <a href="test.test.com">
+                test@test.com</a>.</p>
             <p>footer stuff</p>
         </footer>
 
